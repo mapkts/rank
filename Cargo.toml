@@ -1,0 +1,9 @@
+[package]
+name = "rank"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+diesel = { version = "1.4", features = ["sqlite"] }
+dotenv = "0.15.0"
+rocket = "0.4"
